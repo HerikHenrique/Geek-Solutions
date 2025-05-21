@@ -1,0 +1,10 @@
+{
+    "html.autoClosingTags": true,
+    "html.suggest.html5": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "terminal.integrated.env.windows": {
+    "VIRTUAL_ENV": "${workspaceFolder}\\.venv",
+    "PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}",
+    "editor.formatOnSave": true,
+  "python.formatting.provider": "black"
+}    }
